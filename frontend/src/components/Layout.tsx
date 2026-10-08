@@ -9,11 +9,11 @@ export default function Layout() {
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                         PLOTIFY
                     </Typography>
-                    <Button color="inherit" component={Link} to="/dashboard">Dashboard</Button>
                     <Button color="inherit" component={Link} to="/arazi">Arazi Seçimi</Button>
                     <Button color="inherit" component={Link} to="/Anasayfa">Anasayfa</Button>
                     <Button color="inherit" component={Link} to="/Belgeler">Belgeler</Button>
                     <Button color="inherit" component={Link} to="/Analiz">Analiz</Button>
+                    <Button color="inherit" component={Link} to="/dashboard">Dashboard</Button>
                 </Toolbar>
             </AppBar>
 
