@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26114043-276a-4f4c-90be-1af1ddd6633b" name="Changes" comment="Health endpoint'i ve güvenlik&#10;yapılandırması eklendi" />
+    <list default="true" id="26114043-276a-4f4c-90be-1af1ddd6633b" name="Changes" comment="Health endpoint'i ve güvenlik&#10;yapılandırması eklendi">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/bitirmeodevi/backend/controller/HealthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/bitirmeodevi/backend/controller/HealthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/backend-initial-setup" />
+        <entry key="$PROJECT_DIR$" value="feature/BOM2-13" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,67 +46,67 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0000000035616434" />
-      <entry key="S60" value="1.000221627819515" />
-      <entry key="M2" value="1.067142482603937" />
-      <entry key="M5" value="3.3538233614338124" />
-      <entry key="M10" value="8.915161348607231" />
-      <entry key="M15" value="12.895975999129824" />
-      <entry key="M30" value="18.907483296373083" />
-      <entry key="H1" value="22.984285007640985" />
-      <entry key="H2" value="25.362191938573257" />
-      <entry key="H4" value="26.64688592939562" />
-      <entry key="D1" value="27.769575880154136" />
-      <entry key="W1" value="27.96696008633089" />
+      <entry key="MS100" value="1.0135701371779264" />
+      <entry key="MS500" value="2.155091681918207" />
+      <entry key="S2" value="5.598236453886235" />
+      <entry key="S5" value="9.455622646297948" />
+      <entry key="S10" value="12.316157819135823" />
+      <entry key="S30" value="15.189957444604948" />
+      <entry key="S60" value="16.774583574033798" />
+      <entry key="M2" value="20.885531268225737" />
+      <entry key="M5" value="30.833929933226358" />
+      <entry key="M10" value="40.906796860832536" />
+      <entry key="M15" value="47.17576354761523" />
+      <entry key="M30" value="56.52084131031652" />
+      <entry key="H1" value="62.94174011428505" />
+      <entry key="H2" value="66.73844968574288" />
+      <entry key="H4" value="68.80722141691939" />
+      <entry key="D1" value="70.62557223283706" />
+      <entry key="W1" value="70.94628601417624" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="5.656437700695623E-143" />
-      <entry key="S5" value="1.7668005055198726E-57" />
-      <entry key="S10" value="5.907168908600408E-29" />
-      <entry key="S30" value="8.821560888151215E-10" />
-      <entry key="S60" value="9.795159374762044E-5" />
-      <entry key="M2" value="0.043365031395401724" />
-      <entry key="M5" value="1.868163963230982" />
-      <entry key="M10" value="6.666829861139846" />
-      <entry key="M15" value="10.207808929012483" />
-      <entry key="M30" value="15.644585803059645" />
-      <entry key="H1" value="19.374739815138966" />
-      <entry key="H2" value="21.563072297202748" />
-      <entry key="H4" value="22.74875916136282" />
-      <entry key="D1" value="23.786755336197228" />
-      <entry key="W1" value="23.969419225810405" />
+      <entry key="S2" value="2.9621705255778277E-195" />
+      <entry key="S5" value="2.1617941340627806E-78" />
+      <entry key="S10" value="2.0662972551790397E-39" />
+      <entry key="S30" value="2.8850271594131534E-13" />
+      <entry key="S60" value="1.7713881767674713E-6" />
+      <entry key="M2" value="0.0058316410263340385" />
+      <entry key="M5" value="0.8372890995878189" />
+      <entry key="M10" value="4.46323336997512" />
+      <entry key="M15" value="7.811828158317089" />
+      <entry key="M30" value="13.68592463153025" />
+      <entry key="H1" value="18.12136534598335" />
+      <entry key="H2" value="20.85394182290379" />
+      <entry key="H4" value="22.37157046235332" />
+      <entry key="D1" value="23.720563334677056" />
+      <entry key="W1" value="23.95987922741533" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9330329915368074" />
-      <entry key="MS500" value="0.9862327044933592" />
-      <entry key="S2" value="0.9965402628278678" />
-      <entry key="S5" value="0.9986146661010289" />
-      <entry key="S10" value="0.9993070929904525" />
-      <entry key="S30" value="0.9997689819294594" />
-      <entry key="S60" value="1.0001978449941666" />
-      <entry key="M2" value="1.1091777505998093" />
-      <entry key="M5" value="5.200462212768322" />
-      <entry key="M10" value="15.543696974239118" />
-      <entry key="M15" value="23.064712736053227" />
-      <entry key="M30" value="34.52213415083466" />
-      <entry key="H1" value="42.34048915644641" />
-      <entry key="H2" value="46.914949579161316" />
-      <entry key="H4" value="49.39020414153141" />
-      <entry key="D1" value="51.55538300701166" />
-      <entry key="W1" value="51.936242813241876" />
+      <entry key="MS100" value="0.10774960186003535" />
+      <entry key="MS500" value="1.7695883317177366" />
+      <entry key="S2" value="5.477625633671837" />
+      <entry key="S5" value="9.402882931042619" />
+      <entry key="S10" value="12.288464814558843" />
+      <entry key="S30" value="15.180301252245622" />
+      <entry key="S60" value="16.769267701056748" />
+      <entry key="M2" value="20.88719102289568" />
+      <entry key="M5" value="31.658589000715214" />
+      <entry key="M10" value="45.34242043126741" />
+      <entry key="M15" value="54.956236852067114" />
+      <entry key="M30" value="70.17977303166951" />
+      <entry key="H1" value="81.04534426641318" />
+      <entry key="H2" value="87.58219804081074" />
+      <entry key="H4" value="91.17333066962753" />
+      <entry key="D1" value="94.34517137796954" />
+      <entry key="W1" value="94.90602613209546" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3KMMbxSEwfJXiGSNKw1Ib6t5T7Y" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -106,14 +114,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.BackendApplicationTests.executor": "Run",
+    "JUnit.ParcelControllerTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.BackendApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "git.auto.fetch.suggestion.counter": "1",
+    "git-widget-placeholder": "feature/BOM2-23",
+    "git.auto.fetch.suggestion.counter": "3",
+    "javascript.preferred.runtime.type.id": "node",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/mehmetmertkaya/Downloads/bitirme_odevi_meu_2026",
     "node.js.detected.package.eslint": "true",
@@ -122,17 +138,82 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
+    "settings.editor.selected.configurable": "settings.javascript.runtime",
+    "ts.external.directory.path": "/Users/mehmetmertkaya/Desktop/bitirme_odevi_meu_2026/frontend/node_modules/typescript/lib"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="BackendApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bitirmeodevi.backend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bitirmeodevi.backend" />
+      <option name="MAIN_CLASS_NAME" value="com.bitirmeodevi.backend.BackendApplicationTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <envs>
+        <env name="SPRING_DATASOURCE_USERNAME" value="mehmetmertkaya" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParcelControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bitirmeodevi.backend.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bitirmeodevi.backend.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.bitirmeodevi.backend.controller.ParcelControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <envs>
+        <env name="SPRING_DATASOURCE_USERNAME" value="mehmetmertkaya" />
+      </envs>
       <module name="backend" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bitirmeodevi.backend.BackendApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.BackendApplicationTests" />
+      <item itemvalue="JUnit.ParcelControllerTest" />
+      <item itemvalue="npm.dev" />
+      <item itemvalue="Spring Boot.BackendApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="JUnit.BackendApplicationTests" />
+        <item itemvalue="JUnit.ParcelControllerTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -169,5 +250,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Health endpoint'i ve güvenlik&#10;yapılandırması eklendi" />
     <option name="LAST_COMMIT_MESSAGE" value="Health endpoint'i ve güvenlik&#10;yapılandırması eklendi" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
